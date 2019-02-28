@@ -66,7 +66,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.CustomView> {
 
             @Override
             public void onClickButtonListener() {
-                noteBinding.setImg("https://www.theindianwire.com/wp-content/uploads/2018/10/Developer-Support-for-Huawei-Mate-SE.png");
+                noteBinding.setTitle("UPDATED");
                 NoteRepository.getInstance(context).update(noteBinding);
             }
         });
