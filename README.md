@@ -8,7 +8,7 @@ The above source code was created to fully understand the DataBinding and ViewMo
 - DataBinding RecyclerView
 
 ## ScreenShot
-<img src="http://phoenixdevs.ir/github/mvvm.jpg" height="600" width="350">
+<img src="https://raw.githubusercontent.com/shakbari435/MVVM/master/mvvm.jpg" height="600" width="350">
 
 
 
