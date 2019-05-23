@@ -9,7 +9,7 @@
 
         <variable
             name="viewmodel"
-            type="com.phoenixdevs.mvvm.NoteModel"></variable>
+            type="com.phoenixdevs.mvvm.DataBase.Note.NoteModel"></variable>
 
         <variable
             name="presenter"

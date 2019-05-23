@@ -1,8 +1,6 @@
 package com.phoenixdevs.mvvm.DataBase.Note;
 
 
-import com.phoenixdevs.mvvm.NoteModel;
-
 import java.util.List;
 
 import androidx.room.Dao;

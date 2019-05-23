@@ -5,7 +5,7 @@ import android.os.AsyncTask;
 
 
 import com.phoenixdevs.mvvm.DataBase.Note.NoteDao;
-import com.phoenixdevs.mvvm.NoteModel;
+import com.phoenixdevs.mvvm.DataBase.Note.NoteModel;
 
 import androidx.annotation.NonNull;
 import androidx.room.Database;

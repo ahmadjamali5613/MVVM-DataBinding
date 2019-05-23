@@ -5,7 +5,6 @@ import android.content.Context;
 import android.os.AsyncTask;
 
 import com.phoenixdevs.mvvm.DataBase.DataBase;
-import com.phoenixdevs.mvvm.NoteModel;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;

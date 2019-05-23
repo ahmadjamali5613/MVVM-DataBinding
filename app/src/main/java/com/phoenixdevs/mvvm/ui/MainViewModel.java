@@ -11,7 +11,7 @@ import com.phoenixdevs.mvvm.BR;
 import com.phoenixdevs.mvvm.BaseViewModel.activities.ActivityViewModel;
 import com.phoenixdevs.mvvm.DataBase.Note.NoteRepository;
 import com.phoenixdevs.mvvm.DataBase.Note.GenericsInterface;
-import com.phoenixdevs.mvvm.NoteModel;
+import com.phoenixdevs.mvvm.DataBase.Note.NoteModel;
 
 import java.util.ArrayList;
 import java.util.List;
