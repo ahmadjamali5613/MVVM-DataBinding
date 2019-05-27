@@ -1,11 +1,11 @@
-package com.phoenixdevs.mvvm.DataBase;
+package com.phoenixdevs.mvvm.database;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
 
-import com.phoenixdevs.mvvm.DataBase.Note.NoteDao;
-import com.phoenixdevs.mvvm.DataBase.Note.NoteModel;
+import com.phoenixdevs.mvvm.database.note.NoteDao;
+import com.phoenixdevs.mvvm.database.note.NoteModel;
 
 import androidx.annotation.NonNull;
 import androidx.room.Database;

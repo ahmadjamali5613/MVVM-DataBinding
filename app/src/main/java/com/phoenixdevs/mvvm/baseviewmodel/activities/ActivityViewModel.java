@@ -1,4 +1,4 @@
-package com.phoenixdevs.mvvm.BaseViewModel.activities;
+package com.phoenixdevs.mvvm.baseviewmodel.activities;
 
 import android.content.Intent;
 import android.content.res.Configuration;

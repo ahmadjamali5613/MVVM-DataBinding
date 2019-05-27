@@ -1,4 +1,4 @@
-package com.phoenixdevs.mvvm.BaseViewModel.fragments;
+package com.phoenixdevs.mvvm.baseviewmodel.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;

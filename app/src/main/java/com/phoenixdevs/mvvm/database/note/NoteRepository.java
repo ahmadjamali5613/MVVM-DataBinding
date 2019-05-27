@@ -1,10 +1,10 @@
-package com.phoenixdevs.mvvm.DataBase.Note;
+package com.phoenixdevs.mvvm.database.note;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.phoenixdevs.mvvm.DataBase.DataBase;
+import com.phoenixdevs.mvvm.database.DataBase;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;

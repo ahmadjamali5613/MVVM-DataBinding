@@ -1,4 +1,4 @@
-package com.phoenixdevs.mvvm.DataBase.Note;
+package com.phoenixdevs.mvvm.database.note;
 
 import android.widget.ImageView;
 

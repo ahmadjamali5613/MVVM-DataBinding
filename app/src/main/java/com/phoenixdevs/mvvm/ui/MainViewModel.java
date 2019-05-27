@@ -8,10 +8,10 @@ import android.widget.Toast;
 
 import com.phoenixdevs.mvvm.AddDialog;
 import com.phoenixdevs.mvvm.BR;
-import com.phoenixdevs.mvvm.BaseViewModel.activities.ActivityViewModel;
-import com.phoenixdevs.mvvm.DataBase.Note.NoteRepository;
-import com.phoenixdevs.mvvm.DataBase.Note.GenericsInterface;
-import com.phoenixdevs.mvvm.DataBase.Note.NoteModel;
+import com.phoenixdevs.mvvm.baseviewmodel.activities.ActivityViewModel;
+import com.phoenixdevs.mvvm.database.note.NoteRepository;
+import com.phoenixdevs.mvvm.database.note.GenericsInterface;
+import com.phoenixdevs.mvvm.database.note.NoteModel;
 
 import java.util.ArrayList;
 import java.util.List;

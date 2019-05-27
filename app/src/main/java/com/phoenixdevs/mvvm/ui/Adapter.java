@@ -5,8 +5,8 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.phoenixdevs.mvvm.DataBase.Note.NoteRepository;
-import com.phoenixdevs.mvvm.DataBase.Note.NoteModel;
+import com.phoenixdevs.mvvm.database.note.NoteRepository;
+import com.phoenixdevs.mvvm.database.note.NoteModel;
 import com.phoenixdevs.mvvm.R;
 import com.phoenixdevs.mvvm.databinding.NoteBinding;
 

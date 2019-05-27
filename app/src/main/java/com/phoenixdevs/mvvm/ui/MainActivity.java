@@ -1,7 +1,7 @@
 package com.phoenixdevs.mvvm.ui;
 
 import com.phoenixdevs.mvvm.BR;
-import com.phoenixdevs.mvvm.BaseViewModel.activities.BindingActivity;
+import com.phoenixdevs.mvvm.baseviewmodel.activities.BindingActivity;
 import com.phoenixdevs.mvvm.R;
 import com.phoenixdevs.mvvm.databinding.ActivityMainBinding;
 

@@ -1,6 +1,4 @@
-package com.phoenixdevs.mvvm.DataBase.Note;
-
-import java.util.ArrayList;
+package com.phoenixdevs.mvvm.database.note;
 
 public interface GenericsInterface {
 
