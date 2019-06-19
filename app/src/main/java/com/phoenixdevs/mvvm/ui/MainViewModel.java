@@ -8,10 +8,12 @@ import android.widget.Toast;
 
 import com.phoenixdevs.mvvm.AddDialog;
 import com.phoenixdevs.mvvm.BR;
+import com.phoenixdevs.mvvm.R;
 import com.phoenixdevs.mvvm.baseviewmodel.activities.ActivityViewModel;
 import com.phoenixdevs.mvvm.database.note.NoteRepository;
 import com.phoenixdevs.mvvm.database.note.GenericsInterface;
 import com.phoenixdevs.mvvm.database.note.NoteModel;
+import com.phoenixdevs.mvvm.databinding.NoteBinding;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,7 +69,33 @@ public class MainViewModel extends ActivityViewModel<MainActivity> {
     public static void setupRecyclerView(RecyclerView view, List<NoteModel> arrayList) {
         LinearLayoutManager layoutManager = new LinearLayoutManager(view.getContext());
         view.setLayoutManager(layoutManager);
-        view.setAdapter(new Adapter(arrayList));
+        final AdapterBinding<NoteModel, NoteBinding> adapter = new AdapterBinding<NoteModel, NoteBinding>(arrayList) {
+
+            @Override
+            public int getLayoutResId() {
+                return R.layout.item_note;
+            }
+
+            @Override
+            public void onBindData(final NoteModel model, final int position, NoteBinding dataBinding) {
+                dataBinding.setViewmodel(model);
+                dataBinding.executePendingBindings();
+                dataBinding.setPresenter(new ClickListeners() {
+                    @Override
+                    public void onclickListener() {
+                        Toast.makeText(context, model.getTitle(), Toast.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onClickButtonListener() {
+                        model.setTitle("UPDATED");
+                        NoteRepository.getInstance(context).update(model);
+                    }
+                });
+            }
+        };
+        view.setAdapter(adapter);
+
     }
 
 }

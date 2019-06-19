@@ -9,11 +9,13 @@
 
         <variable
             name="viewmodel"
-            type="com.phoenixdevs.mvvm.database.note.NoteModel"></variable>
+            type="com.phoenixdevs.mvvm.database.note.NoteModel">
+
+        </variable>
 
         <variable
             name="presenter"
-            type="com.phoenixdevs.mvvm.ui.Adapter.ClickListeners" />
+            type="com.phoenixdevs.mvvm.ui.AdapterBinding.ClickListeners" />
 
     </data>
 
