@@ -6,6 +6,8 @@ The above source code was created to fully understand the DataBinding and ViewMo
 - DataBinding BaseObservable
 - RoomDataBase
 - DataBinding RecyclerView
+- Generic Adapter RecyclerView with DataBinding
+
 
 ## ScreenShot
 <img src="https://raw.githubusercontent.com/shakbari435/MVVM/master/mvvm.jpg" height="600" width="350">
