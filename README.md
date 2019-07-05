@@ -1,6 +1,6 @@
 # MVVM
 
-The above source code was created to fully understand the DataBinding and ViewModel.
+The above source code was created to fully understand the DataBinding and ViewModel or MVVM.
 # Made with:
 ###  
 - DataBinding BaseObservable
